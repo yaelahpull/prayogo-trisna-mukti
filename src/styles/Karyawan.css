@@ -1,0 +1,131 @@
+.karyawan-wrapper {
+    margin-top: 25px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+thead th:nth-child(1) {
+    width: 1%;
+}
+
+ thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(6) {
+    width: 20%;
+}
+
+th, td {
+    padding: 20px;
+    border: 2px solid;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+td img {
+    height: 100px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr .button-group {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+tfoot th {
+    text-align: right;
+}
+
+.karyawan-wrapper .button-add button {
+    background-color: #4ed0ff; 
+    color: black;
+    height: 40px;
+    border-color: #4ed0ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.karyawan-wrapper table tbody tr td .button-edit {
+    background-color: #61ee5a; 
+    color: black;
+    height: 30px;
+    width: 40%;
+    border-color: #61ee5a;
+    border-radius: 10px;
+    margin-left: 0;
+}
+
+.karyawan-wrapper table tbody tr td .button-delete {
+    background-color: #ff0505; 
+    color: black;
+    height: 30px;
+    width: 40%;
+    border-color: #ff0505;
+    border-radius: 10px;
+}
+
+.karyawan-wrapper table p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.karyawan-wrapper .pagination {
+    margin-top: 10px;
+    padding-bottom: 30px;
+    width: 12%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.karyawan-wrapper .pagination .page-before {
+    margin-right: 10px;
+    /* background-color: #4ed0ff;
+    border-color: #4ed0ff; */
+    /* color: black; */
+    height: 30px;
+    width: 50px;
+}
+
+.karyawan-wrapper .pagination .page-after {
+    margin-left: 10px;
+    height: 30px;
+    width: 50px;
+}
+
+.karyawan-wrapper .pagination button {
+    border-radius: 10px;
+}
+
+.karyawan-wrapper .pagination .pages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.karyawan-wrapper .pagination .pages button {
+    width: 30px;
+}
+
+.karyawan-wrapper .pagination .pages button:focus {
+    background-color: #4ed0ff;
+}
